@@ -41,6 +41,14 @@ namespace VariousTypes
             Console.WriteLine(y);
             Console.WriteLine(z);
 
+        //Create two Boolean variables, one initialized to true, the other to false
+        bool conditionTrue = true;
+        bool conditionFalse = false;
+        
+        //Display the value on the screen 
+            Console.WriteLine(conditionTrue);
+            Console.WriteLine(conditionFalse);
+
         }
     }
 }
