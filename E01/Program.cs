@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Text;
 
-namespace E01
+namespace Extra01
 {
     public class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            Console.OutputEncoding = Encoding.UTF8;
+            char tradeMark = '\u00AE';
+            Console.WriteLine(tradeMark);
         }
     }
 }
