@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace E01
 {
@@ -6,7 +7,10 @@ namespace E01
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            Console.OutputEncoding = Encoding.UTF8;
+            char Trademark = '\u00AE';
+
+            Console.WriteLine(Trademark);
         }
     }
 }
